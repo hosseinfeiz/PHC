@@ -1,0 +1,14 @@
+- learning=im_mcp
+- exp_name=phc_shape_mcp_iccv
+- epoch=-1
+- test=True
+- env=env_im_getup_mcp
+- robot=smpl_humanoid_shape
+- robot.freeze_hand=True
+- robot.box_body=False
+- env.z_activation=relu
+- env.motion_file=sample_data/amass_isaac_standing_upright_slim.pkl
+- env.models=[output/HumanoidIm/phc_shape_pnn_iccv/Humanoid.pth]
+- env.num_envs=1
+- headless=False
+- im_eval=True

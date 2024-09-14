@@ -1,0 +1,33 @@
+mujoco>=3
+lxml
+vtk
+mediapy
+joblib
+numpy>1.16.1
+scipy
+smplx@ git+https://github.com/ZhengyiLuo/smplx.git@master
+numpy-stl
+torchgeometry
+opencv-python
+chumpy
+imageio
+gymnasium>=0.29.1
+hydra-core>=1.3
+tqdm
+easydict
+
+[:python_version < "3.9"]
+importlib-resources==3.0.0
+
+[dm_control]
+dm_control
+dm-env
+
+[isaac]
+aiohttp
+scikit-image
+Pillow
+pyvirtualdisplay
+
+[tests]
+pytest

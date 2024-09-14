@@ -1,0 +1,221 @@
+{
+    "os": "Linux-6.8.0-40-generic-x86_64-with-glibc2.17",
+    "python": "3.8.19",
+    "heartbeatAt": "2024-09-07T16:26:58.382534",
+    "startedAt": "2024-09-07T16:26:58.272157",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "learning=im_mcp_big",
+        "exp_name=phc_comp_3",
+        "env=env_im_getup_mcp",
+        "robot=smpl_humanoid",
+        "env.zero_out_far=False",
+        "robot.real_weight_porpotion_boxes=False",
+        "env.num_prim=3",
+        "env.motion_file=sample_data/amass_isaac_standing_upright_slim.pkl",
+        "env.models=[output/HumanoidIm/phc_3/Humanoid.pth]",
+        "env.num_envs=1",
+        "headless=False",
+        "im_eval=True"
+    ],
+    "state": "running",
+    "program": "phc/run_hydra.py",
+    "codePathLocal": "phc/run_hydra.py",
+    "codePath": "phc/run_hydra.py",
+    "git": {
+        "remote": "https://github.com/ZhengyiLuo/PHC.git",
+        "commit": "6db1db1830b513f670525a2046d28fe51d0e77d2"
+    },
+    "email": "hfa.zadeh.k@gmail.com",
+    "root": "/home/insq/PHC",
+    "host": "insq-videoboxe",
+    "username": "insq",
+    "executable": "/home/insq/miniconda3/envs/isaac/bin/python",
+    "cpu_count": 24,
+    "cpu_count_logical": 32,
+    "cpu_freq": {
+        "current": 3232.2972499999996,
+        "min": 800.0,
+        "max": 4937.5
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 5500.0,
+            "min": 800.0,
+            "max": 5500.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 5500.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 5500.0
+        },
+        {
+            "current": 5500.0,
+            "min": 800.0,
+            "max": 5500.0
+        },
+        {
+            "current": 5500.0,
+            "min": 800.0,
+            "max": 5500.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 5500.0
+        },
+        {
+            "current": 5499.944,
+            "min": 800.0,
+            "max": 5500.0
+        },
+        {
+            "current": 5501.149,
+            "min": 800.0,
+            "max": 5500.0
+        },
+        {
+            "current": 5501.711,
+            "min": 800.0,
+            "max": 5800.0
+        },
+        {
+            "current": 5325.358,
+            "min": 800.0,
+            "max": 5800.0
+        },
+        {
+            "current": 5500.0,
+            "min": 800.0,
+            "max": 5800.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 5800.0
+        },
+        {
+            "current": 5500.0,
+            "min": 800.0,
+            "max": 5500.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 5500.0
+        },
+        {
+            "current": 5500.0,
+            "min": 800.0,
+            "max": 5500.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 5500.0
+        },
+        {
+            "current": 4301.152,
+            "min": 800.0,
+            "max": 4300.0
+        },
+        {
+            "current": 4296.438,
+            "min": 800.0,
+            "max": 4300.0
+        },
+        {
+            "current": 4306.477,
+            "min": 800.0,
+            "max": 4300.0
+        },
+        {
+            "current": 4300.194,
+            "min": 800.0,
+            "max": 4300.0
+        },
+        {
+            "current": 4384.615,
+            "min": 800.0,
+            "max": 4300.0
+        },
+        {
+            "current": 4292.994,
+            "min": 800.0,
+            "max": 4300.0
+        },
+        {
+            "current": 4306.648,
+            "min": 800.0,
+            "max": 4300.0
+        },
+        {
+            "current": 4299.964,
+            "min": 800.0,
+            "max": 4300.0
+        },
+        {
+            "current": 4313.157,
+            "min": 800.0,
+            "max": 4300.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 4300.0
+        },
+        {
+            "current": 4300.443,
+            "min": 800.0,
+            "max": 4300.0
+        },
+        {
+            "current": 4302.967,
+            "min": 800.0,
+            "max": 4300.0
+        },
+        {
+            "current": 4252.688,
+            "min": 800.0,
+            "max": 4300.0
+        },
+        {
+            "current": 4260.775,
+            "min": 800.0,
+            "max": 4300.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 4300.0
+        },
+        {
+            "current": 4360.638,
+            "min": 800.0,
+            "max": 4300.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 915.3232879638672,
+            "used": 600.7513465881348
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 4090",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 4090",
+            "memory_total": 25757220864
+        }
+    ],
+    "memory": {
+        "total": 62.63433074951172
+    }
+}

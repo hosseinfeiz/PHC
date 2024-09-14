@@ -1,0 +1,11 @@
+- learning=im_pnn
+- exp_name=phc_shape_pnn_iccv
+- epoch=-1
+- test=True
+- env=env_im_pnn
+- robot=smpl_humanoid_shape
+- robot.freeze_hand=True
+- robot.box_body=False
+- env.motion_file=sample_data/amass_isaac_standing_upright_slim.pkl
+- env.num_envs=1
+- headless=False

@@ -1,0 +1,11 @@
+- learning=im_big
+- exp_name=phc_prim_vr
+- env=env_vr
+- robot=smpl_humanoid
+- robot.box_body=False
+- env.motion_file=sample_data/amass_isaac_standing_upright_slim.pkl
+- env.num_envs=1
+- headless=False
+- epoch=-1
+- test=True
+- no_virtual_display=True

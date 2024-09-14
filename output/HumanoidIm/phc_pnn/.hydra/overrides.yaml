@@ -1,0 +1,8 @@
+- learning=im_pnn_big
+- exp_name=phc_pnn
+- env=env_im_pnn
+- robot=smpl_humanoid
+- env.motion_file=sample_data/amass_isaac_gender_betas_unique.pkl
+- env.training_prim=0
+- epoch=-1
+- test=True
